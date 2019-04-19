@@ -15,7 +15,7 @@ class App extends React.Component {
 
     render() {
         return (
-          <div>
+          <React.Fragment>
             <NavBar score={this.state.score} topscore={this.state.topscore}>Clicky Game</NavBar>
             <Jumbotron />
 
@@ -29,7 +29,7 @@ class App extends React.Component {
 
            
 
-          </div>
+            </React.Fragment>
         );
       }
   

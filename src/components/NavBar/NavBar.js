@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 const NavBar = props => (
   
-    <nav>
+    <nav className="fixed-top">
       <div className="title">{props.children}</div>
       <div className="header">Click an Image to Begin!</div>
       <div className="score">Score: {props.score} | Top Score: {props.topscore}</div>
