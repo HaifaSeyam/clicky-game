@@ -14,14 +14,15 @@ class App extends React.Component {
     msg: "Click an Image to Begin!"
   }
 
-  imgSelect = () => {
-    this.setState({ 
-      score: this.state.score + 1,
-      topscore: this.state.topscore + 1
-     });
+  imgSelect = id => {
+
+    butterflies.sort(() => Math.random() - 0.5);
+    this.setState({
+      butterflies: butterflies
+    });
+    
   };
-
-
+  
     render() {
         return (
           <React.Fragment>
@@ -31,7 +32,7 @@ class App extends React.Component {
             <div className="containerDiv">
               {
                 this.state.butterflies.map((butterflies, index) => (
-                  <ButterflyCard key={index} image={butterflies.image} imgSelect={this.imgSelect} />
+                  <ButterflyCard key={index} id={butterflies.id} image={butterflies.image} imgSelect={this.imgSelect}/>
                 ))
               }
             </div>
