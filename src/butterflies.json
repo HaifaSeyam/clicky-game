@@ -58,5 +58,20 @@
       "id": 12,
       "image": "./images/img-12.jpg",
       "clicked": false
+    },
+    {
+      "id": 13,
+      "image": "./images/img-13.jpg",
+      "clicked": false
+    },
+    {
+      "id": 14,
+      "image": "./images/img-14.jpg",
+      "clicked": false
+    },
+    {
+      "id": 15,
+      "image": "./images/img-15.jpg",
+      "clicked": false
     }
   ]
