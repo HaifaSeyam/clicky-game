@@ -1,16 +1,35 @@
 import React from "react";
-import Header from "./components/Header";
-
+import NavBar from "./components/NavBar";
+import Jumbotron from "./components/Jumbotron"
+import ButterflyCard from "./components/ButterflyCard"
+import butterflies from "./butterflies.json";
 
 class App extends React.Component {
 
   state = {
+    butterflies: butterflies,
     score: 0,
-    highscore: 0
+    topscore: 0
   }
 
     render() {
-        return (<Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>);
+        return (
+          <div>
+            <NavBar score={this.state.score} topscore={this.state.topscore}>Clicky Game</NavBar>
+            <Jumbotron />
+            
+
+            {/* {
+              this.state.butterflies.map(butterflies => (
+                <ButterflyCard image={butterflies.image}/>
+              ))
+            } */}
+
+
+          </div>
+        
+        
+        );
       }
   
 }
