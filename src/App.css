@@ -1,4 +1,10 @@
 .containerDiv {
     background-color: rgb(85, 46, 46);
     padding: 3% 15%;
+    padding-left: 17%;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none !important;
 }

@@ -10,24 +10,31 @@ class App extends React.Component {
   state = {
     butterflies: butterflies,
     score: 0,
-    topscore: 0
+    topscore: 0,
+    msg: "Click an Image to Begin!"
   }
+
+  imgSelect = () => {
+    this.setState({ 
+      score: this.state.score + 1,
+      topscore: this.state.topscore + 1
+     });
+  };
+
 
     render() {
         return (
           <React.Fragment>
-            <NavBar score={this.state.score} topscore={this.state.topscore}>Clicky Game</NavBar>
+            <NavBar score={this.state.score} topscore={this.state.topscore} msg={this.state.msg}><a href=".">Clicky Game</a></NavBar>
             <Jumbotron />
 
             <div className="containerDiv">
               {
                 this.state.butterflies.map((butterflies, index) => (
-                  <ButterflyCard key={index} image={butterflies.image}/>
+                  <ButterflyCard key={index} image={butterflies.image} imgSelect={this.imgSelect} />
                 ))
               }
             </div>
-
-           
 
             </React.Fragment>
         );
