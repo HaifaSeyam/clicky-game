@@ -1,4 +1,4 @@
-#### App still has a bug --- deployment to github needs to be done
+#### deployment to github needs to be done
 
 # clicky-game
 
