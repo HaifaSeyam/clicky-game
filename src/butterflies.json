@@ -58,20 +58,5 @@
       "id": 12,
       "image": "./assets/images/img-13.jpg",
       "clicked": false
-    },
-    {
-      "id": 13,
-      "image": "./assets/images/img-14.jpg",
-      "clicked": false
-    },
-    {
-      "id": 14,
-      "image": "./assets/images/img-15.jpg",
-      "clicked": false
-    },
-    {
-      "id": 15,
-      "image": "./assets/images/img-022.jpg",
-      "clicked": false
     }
   ]
