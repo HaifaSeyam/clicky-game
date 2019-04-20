@@ -32,7 +32,6 @@ class App extends React.Component {
       const reset = this.state.butterflies.map(element => {
        return {...element, clicked: false}
       })
-      console.log(reset)
 
       this.setState({
         score: 0,
