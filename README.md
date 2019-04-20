@@ -1,5 +1,3 @@
-####App still has a bug --- deployment to github needs to be done
-
 # clicky-game
 
 ### Overview
@@ -12,4 +10,6 @@ CSS - Bootstarp - React - ES6 - Javascript
 
 #### Deployed Link
 https://radiant-woodland-85523.herokuapp.com/
+
+####App still has a bug --- deployment to github needs to be done
 
