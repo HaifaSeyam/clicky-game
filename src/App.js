@@ -26,6 +26,7 @@ class App extends React.Component {
 
     if (selectedElement.clicked) {
 
+      //I need to change the clicked property to false for all of the array elements
       selectedElement.clicked = false;
 
       this.setState({
