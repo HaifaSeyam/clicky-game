@@ -29,8 +29,14 @@ class App extends React.Component {
       //I need to change the clicked property to false for all of the array elements
       selectedElement.clicked = false;
 
+      const reset = this.state.butterflies.map(element => {
+       return {...element, clicked: false}
+      })
+      console.log(reset)
+
       this.setState({
         score: 0,
+        butterflies: reset,
         msg: "Incorrect Guess - Try Again!"
       })
 
