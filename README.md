@@ -11,5 +11,5 @@ Also, each time the user clicks an image, the whole set of images will be shuffl
 CSS - Bootstarp - React - ES6 - Javascript
 
 #### Deployed Link
-https://radiant-woodland-85523.herokuapp.com/
+
 
