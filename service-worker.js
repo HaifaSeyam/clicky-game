@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HaifaSeyam/clicky-game.git/precache-manifest.34f2236bdfafb4ba0ff5b2e77de76571.js"
+  "/HaifaSeyam/clicky-game/precache-manifest.cc08a2489711ba6de5de4846f0ea3287.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/HaifaSeyam/clicky-game.git/index.html", {
+workbox.routing.registerNavigationRoute("/HaifaSeyam/clicky-game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
