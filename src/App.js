@@ -78,7 +78,7 @@ class App extends React.Component {
              score: 0,
              topscore: 0,
              butterflies: clear,
-             msg: "You have won! Click on any image to start over ..."
+             msg: "You have won! Click an image to start."
            });
 
            console.log("CLEAR: ", clear)
