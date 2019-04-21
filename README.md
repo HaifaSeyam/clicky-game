@@ -1,5 +1,3 @@
-#### deployment to github needs to be done
-
 # clicky-game
 
 ### Overview
